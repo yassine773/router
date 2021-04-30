@@ -1,0 +1,31 @@
+.MovieList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.MovieList_container {
+  margin: 20px;
+  text-align: center;
+}
+
+.MovieList_img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(66%);
+}
+
+.MovieList_container:hover .MovieList_img {
+  filter: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.MovieList_container > a {
+  text-decoration: none;
+  color: #30336B;
+}
+
+.MovieList_container > a:hover {
+  color: #1BCA9B;
+}
+

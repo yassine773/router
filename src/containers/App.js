@@ -7,9 +7,7 @@ import Avenger1 from "../assets/img/Avenger1.jpg";
 import Avenger2 from "../assets/img/Avenger2.jpg";
 import Avenger3 from "../assets/img/Avenger3.jpg";
 import MovieList from "../components/MovieList";
-import NavBar from "../components/NavBar";
 import MovieDetails from "../components/MovieDetails";
-import "../assets/css/App.css";
 export default class App extends Component {
   static defaultProps = {
     movieList: [
